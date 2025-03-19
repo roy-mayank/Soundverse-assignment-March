@@ -17,7 +17,7 @@ export default async function Home() {
             musicians.
           </p>
         </div>
-        <div className="grid xl:grid-cols-5 md:grid-cols-3 min-w-3xs gap-3 grow-0 grid-flow-row grid-cols-auto">
+        <div className="grid xl:grid-cols-4 md:grid-cols-3 min-w-3xs gap-3 grow-0 grid-flow-row grid-cols-auto">
           {json.map((artist) => (
             <ArtistCard key={artist.Artist} artist={artist} />
           ))}
