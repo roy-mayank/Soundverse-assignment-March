@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
               <NavElements />
               <Link
                 href="/"
-                className="mt-4 p-2 px-2 rounded-md text-white bg-gray-900 border-2 border-purple-900"
+                className="mt-4 p-2 px-2 rounded-md text-white bg-gray-900 border-2 border-purple-900 hover:border-white hover:font-semibold hover:scale-110 transition-transform"
               >
                 <span>DNA</span>
               </Link>
