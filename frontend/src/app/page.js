@@ -3,7 +3,6 @@ import ArtistCard from "./components/artistcard";
 export default async function Home() {
   const data = await fetch("http://127.0.0.1:8000/");
   const json = await data.json();
-  console.log(json);
 
   return (
     <div className="min-h-screen w-screen flex justify-center bg-gradient-to-tl from-neutral-950 to-purple-500 from-80% to-100% sm:bg-black">
