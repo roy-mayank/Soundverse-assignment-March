@@ -15,7 +15,7 @@ export default function ArtistCard({ artist }) {
     };
 
     return (
-        <div className="flex flex-col gap-3 m-4 text-white rounded-lg shadow-lg overflow-hidden group">
+        <div className="flex flex-col gap-3 m-4 text-white rounded-lg shadow-lg overflow-hidden group hover:bg-gray-800 px-4 pt-3">
             <div
                 className="relative bg-cover bg-center bg-[url(/placeholder.jpg)] w-full h-56 rounded-t-lg"
             >
